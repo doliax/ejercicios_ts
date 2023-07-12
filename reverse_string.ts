@@ -25,7 +25,7 @@ function reverseString2(str: string): string {
     //La variable auxiliar i coge la longitud del array empezando por el final ( - 1 ), e ira decrementando hasta 0.
     for (let i = str_split.length - 1; i >= 0; i--){
 
-        //En cada iteracion ek strubg acumula el valor (!odnum aloH)
+        //En cada iteracion el string acumula el valor (!odnum aloH)
         data += str_split[i];
     }
 
