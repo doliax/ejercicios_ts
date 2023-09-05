@@ -1,7 +1,6 @@
 export function arraysort(arr_1: number[], arr_2 : number[]) : number[] {
     //Juntar dos arrays y ordenar sus valores de mayor a menor
 
-   
     let juntar : number[] = [];
 
     arr_1.forEach(i => {
@@ -12,7 +11,12 @@ export function arraysort(arr_1: number[], arr_2 : number[]) : number[] {
         })
     );
 
+    //El sort por defecto es de menor a mayor
     juntar.sort();
+
+    //Esto es de mayor a menor 
+    //juntar.sort((a, b) => b - a);
+
     return juntar;
 
     //Versión pro

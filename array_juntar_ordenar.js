@@ -9,7 +9,8 @@ function arraysort(arr_1, arr_2) {
     }, arr_2.forEach(function (j) {
         juntar.push(j);
     }));
-    juntar.sort();
+    //juntar.sort();
+    juntar.sort(function (a, b) { return b - a; });
     return juntar;
     //Versión pro
     /*let arr_1: number[] = [6, 8, 7, 9];
