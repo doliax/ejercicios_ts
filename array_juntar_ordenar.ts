@@ -37,3 +37,28 @@ export function arraysort(arr_1: number[], arr_2 : number[]) : number[] {
 }
 
 console.log(arraysort([6,8,7,9], [4,2,3,1]));
+
+
+/*
+    Sin sort
+
+
+    export function arraysort(arr_1: number[], arr_2: number[]): number[] {
+  // Juntar dos arrays
+  let juntar: number[] = [...arr_1, ...arr_2];
+
+  // Ordenar de mayor a menor usando el algoritmo de ordenamiento de burbuja
+  for (let i = 0; i < juntar.length - 1; i++) {
+    for (let j = 0; j < juntar.length - i - 1; j++) {
+      if (juntar[j] < juntar[j + 1]) {
+        // Intercambiar los elementos si están en el orden incorrecto
+        const temp = juntar[j];
+        juntar[j] = juntar[j + 1];
+        juntar[j + 1] = temp;
+      }
+    }
+  }
+
+  return juntar;
+}
+*/ 
