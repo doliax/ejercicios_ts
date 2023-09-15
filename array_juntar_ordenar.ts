@@ -2,7 +2,7 @@ export function arraysort(arr_1: number[], arr_2 : number[]) : number[] {
     //Juntar dos arrays y ordenar sus valores de mayor a menor
 
     let juntar : number[] = [];
-
+  //Recorro los dos array y almaceno sus valores en un array nuevo
     arr_1.forEach(i => {
         juntar.push(i);
     },
