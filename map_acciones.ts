@@ -1,6 +1,6 @@
 
 
-//Un map es una estructura de datos que nos permiten almacenar datos en clave valor pero la clave debe ser del tipo estipulado
+//Un map es una estructura de datos que nos permiten almacenar datos en clave valor pero la clave puede ser objetos, funciones,etc | Map con tipos genericos
 let data = new Map<string, number>();
 
 //Set añade un nuevo elemento al map
