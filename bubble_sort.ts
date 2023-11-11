@@ -4,8 +4,18 @@ function fusion_array(arr1: number[], arr2: number[]) : number[]{
   
     let conc: number[] = [];
   
+
+  /* Si los arrays tienen diferentes tamaño, los recorremos individualmente
+      for(let i :number = 0; i < arr1.length; i++){
+      conc.push(arr1[i]);
+    }
+
+    for(let i :number = 0; i < arr2.length; i++){
+      conc.push(arr2[i]);
+    } */
+
     /*Modo Pro
-    1. Primero metemos en el conc los valores de los dos arrays */
+    1. Primero metemos en el conc los valores de los dos arrays | Esta manera solo funciona si ambos array tienen el mismo tamaño */
     for(let i: number = 0; i < arr1.length; i++){
       conc.push(arr1[i], arr2[i]);
    }
