@@ -35,6 +35,7 @@ function fusion_array(arr1: number[], arr2: number[]) : number[]{
         }
       }
     }
+    
   
   
     /* Modo sencillo
